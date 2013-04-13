@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               AnyEvent-HTTPD-SendMultiHeaderPatch
-version:            0.01
+version:            v0.1.1
 abstract:           ~
 author:
     - Cindy Wang (CindyLinz)
@@ -9,7 +9,9 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
-    Test::More:  0
+    AnyEvent::HTTPD:  0
+    Test::More:       0
+    version:          0
 requires:
     perl:  5.006
 no_index:
